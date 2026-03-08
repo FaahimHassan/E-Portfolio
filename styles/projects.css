@@ -27,7 +27,9 @@ color: #FD6E0A;
 
 }
 .btn:hover{background-color:green;}
-
+.skill-card .btn:hover{
+  background-color: green;
+}
 .section-heading{
   max-width: 827px;
   text-align: center;
@@ -122,6 +124,14 @@ nav .menu a{
   display: block;
   margin: 0 auto;
 }
+ .skill-card iframe{
+  width: 80%;
+  height: 315px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 6px;
+} 
+
 .skill-card h3{
   font-size: 20px;
   color: #181818;
