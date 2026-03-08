@@ -45,7 +45,6 @@ color: #FD6E0A;
   line-height: 30px;
 
 }
-
 .text-center{
   text-align: center;
 }
@@ -84,52 +83,43 @@ nav .menu a{
   text-decoration: none;
 
 }
-#skills,#about,#resume{
+/* ai */
+.project-section{
+    padding: 100px 0;
     background-color: #FFF8F3;
-  padding: 130px;
 }
-#skills .skills-container{
-  width: 90%;
-  max-width: 1140px;
-  margin: 0 auto;
-}
-#skills .skills-container .skills-box{
-  /* background-color: #FFF8F3; */
-  /* gap: 24px; */
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: center;
 
+.project-container{
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
-/* skills box er skill card gulo ke manush kora lagbe(mane design kor lagbe) */
-.skills-box .skill-card{
-  padding: 30px;
-  /* border: 1px solid red; */
-  box-shadow: 0 6px 50px 0 #00000027;
-  /* box shadow te amra 4 dhoroner value use korte pari{(x axis theke kon dike sorbe),(y axis er sathe koto tuku hobe),(koto tuku blur hobe),(spred hobe koto tuku),then color diba} */
-  max-width: 900px;
+
+.project-text{
+    flex: 1;
 }
-.skills-box :hover{background-color: #FFF8F3;}
-/* skill card er image gulo ke size kora proyozon */
-.skill-card img{
-  /* max-width: 44px;
-  margin-bottom: 30px; */
-  width: 70%;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-  display: block;
-  margin: 0 auto;
+
+.project-text h2{
+    font-size: 36px;
+    margin-bottom: 20px;
 }
-.skill-card h3{
-  font-size: 20px;
-  color: #181818;
-  margin-bottom: 20px;
+
+.project-text p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #757575;
 }
-.skill-card p{
-  font-size: 16px;
-  color: #757575;
-  /* margin-bottom: 30px; */
-  line-height: 30px;
+
+.project-image{
+    flex: 1;
+}
+
+.project-image img{
+    width: 100%;
+    max-width: 500px;
 }
